@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    /* Dark NFT Theme */
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 240 6% 6%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 240 6% 6%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 270 91% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 6% 10%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 240 6% 15%;
+    --muted-foreground: 240 5% 64%;
+
+    --accent: 270 91% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 6% 20%;
+    --input: 240 6% 15%;
+    --ring: 270 91% 65%;
+
+    --radius: 0.75rem;
+
+    /* Custom colors */
+    --purple-glow: 270 91% 65%;
+    --purple-light: 280 85% 70%;
+    --purple-dark: 265 90% 50%;
+    --glass: 240 6% 10%;
+    --glass-border: 240 6% 20%;
+    
+    /* Gradients */
+    --gradient-purple: linear-gradient(135deg, hsl(270 91% 65%), hsl(280 85% 70%));
+    --gradient-glass: linear-gradient(135deg, hsl(240 6% 10% / 0.8), hsl(240 6% 6% / 0.6));
+    --gradient-glow: radial-gradient(ellipse at center, hsl(270 91% 65% / 0.3), transparent 70%);
+    
+    /* Shadows */
+    --shadow-glow: 0 0 80px hsl(270 91% 65% / 0.4);
+    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.3);
+    
+    /* Sidebar (keeping defaults) */
+    --sidebar-background: 240 6% 6%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 270 91% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 6% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 240 6% 20%;
+    --sidebar-ring: 270 91% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-outfit antialiased;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-card/60 backdrop-blur-xl border border-border/50;
+  }
+  
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl border border-border/30 rounded-2xl;
+  }
+  
+  .glow-purple {
+    box-shadow: 0 0 60px hsl(270 91% 65% / 0.4), 0 0 120px hsl(270 91% 65% / 0.2);
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-purple-light bg-clip-text text-transparent;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(270 91% 65%), hsl(280 85% 70%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-glow {
+    background: radial-gradient(ellipse at center, hsl(270 91% 65% / 0.15), transparent 60%);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.6s ease-out forwards;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
