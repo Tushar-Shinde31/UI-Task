@@ -7,15 +7,13 @@ The objective was to accurately recreate the landing page UI, ensure strong resp
 
 ## Live Demo
 
-Live Preview: https://your-live-link.vercel.app  
-*(Replace with your actual deployed link)*
+Live Preview: https://ui-task-two-delta.vercel.app/
 
 ---
 
 ##  GitHub Repository
 
- Repository: https://github.com/your-username/ui-task  
-*(Replace with your actual repo link)*
+ Repository: https://github.com/Tushar-Shinde31/UI-Task
 
 ---
 
@@ -85,14 +83,15 @@ The application will be available at http://localhost:8080.
 
 ---
 
-📱 Responsive Screenshots
-Desktop
+### 📱 Responsive Screenshots
+
+#Desktop
 <img width="1366" height="768" alt="Screenshot (448)" src="https://github.com/user-attachments/assets/675a34d0-3d7f-42e7-8b29-6fcbf11251d7" />
 
-Tab
+#Tab
 <img width="921" height="626" alt="Screenshot (449)" src="https://github.com/user-attachments/assets/297c2816-2525-4178-8da0-5fce90d14f74" />
 
-Mobile
+#Mobile
 ![WhatsApp Image 2025-12-28 at 2 11 09 PM](https://github.com/user-attachments/assets/d68db1db-8b55-441a-8357-8550928de991)
 
 ---
