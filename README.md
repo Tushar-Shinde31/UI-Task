@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# UI Engineering Assignment – Landing Page
 
-## Project info
+This project is a UI-focused frontend implementation based on a provided Figma design.  
+The objective was to accurately recreate the landing page UI, ensure strong responsiveness across devices, and extend the design system to additional pages.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Live Demo
 
-There are several ways of editing your application.
+Live Preview: https://ui-task-two-delta.vercel.app/
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+##  GitHub Repository
 
-Changes made via Lovable will be committed automatically to this repo.
+ Repository: https://github.com/Tushar-Shinde31/UI-Task
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+##  Objectives
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Recreate the provided Figma landing page with pixel-level accuracy  
+- Ensure full responsiveness for desktop, tablet, and mobile devices  
+- Extend the design system to additional pages  
+- Maintain clean, modular, and readable UI code  
 
-Follow these steps:
+This assignment is **frontend-only** and does not include backend functionality.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+##  Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- React (Vite)
+- Tailwind CSS
+- React Router DOM
+- JavaScript (ES6+)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+##  Features
+
+### Landing Page
+- Pixel-aligned layout matching the Figma design
+- Consistent typography, spacing, and color palette
+- Component-based UI structure
+
+### Responsiveness
+- Optimized layouts for:
+  - Desktop
+  - Tablet
+  - Mobile
+- Section reflow and stacking handled using Tailwind breakpoints
+- Typography and spacing scale smoothly across screen sizes
+
+### Additional Pages
+The design system is extended with additional pages:
+- About
+- Features *(or Pricing / Contact)*
+
+All pages share a common navigation bar and footer to maintain consistency.
+
+---
+
+##  Getting Started
+
+### Clone the repository
+```bash
+git clone https://github.com/Tushar-Shinde31/UI-Task
+cd ui-task
+```
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run the project locally
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at http://localhost:8080.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### 📱 Responsive Screenshots
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+<img width="1366" height="768" alt="Screenshot (448)" src="https://github.com/user-attachments/assets/675a34d0-3d7f-42e7-8b29-6fcbf11251d7" />
 
-## What technologies are used for this project?
+<img width="921" height="626" alt="Screenshot (449)" src="https://github.com/user-attachments/assets/297c2816-2525-4178-8da0-5fce90d14f74" />
 
-This project is built with:
+![WhatsApp Image 2025-12-28 at 2 11 09 PM](https://github.com/user-attachments/assets/d68db1db-8b55-441a-8357-8550928de991)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+### Author
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Tushar Shinde
+Frontend / Full Stack Developer
