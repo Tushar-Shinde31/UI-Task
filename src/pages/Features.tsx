@@ -131,7 +131,7 @@ const Features = () => {
             <div className="absolute inset-0 bg-glow opacity-30" />
             <div className="relative z-10">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Ready to Experience NFTIFY?
+                Ready to Experience NFTme?
               </h2>
               <p className="text-muted-foreground max-w-xl mx-auto mb-8">
                 Join thousands of artists and collectors who are already using our platform.

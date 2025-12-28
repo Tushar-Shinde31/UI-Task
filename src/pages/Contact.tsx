@@ -32,7 +32,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "support@nftify.com",
+      details: "support@NFTme.com",
       subtitle: "We'll respond within 24 hours",
     },
     {
@@ -59,7 +59,7 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      {/* Hero Section */}
+      
       <SectionWrapper className="pt-32 md:pt-40">
         <div className="absolute inset-0 bg-glow opacity-40" />
         <div className="container mx-auto px-4 lg:px-8 text-center relative z-10">
@@ -72,7 +72,6 @@ const Contact = () => {
         </div>
       </SectionWrapper>
 
-      {/* Contact Form & Info */}
       <SectionWrapper>
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-5 gap-12">
@@ -117,7 +116,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Contact Form */}
             <div className="lg:col-span-3">
               <form onSubmit={handleSubmit} className="glass-card p-8 space-y-6">
                 <div className="grid sm:grid-cols-2 gap-6">
@@ -191,7 +189,7 @@ const Contact = () => {
         </div>
       </SectionWrapper>
 
-      {/* FAQ Preview */}
+    
       <SectionWrapper className="pb-24">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="glass-card p-8 md:p-12 text-center relative overflow-hidden">

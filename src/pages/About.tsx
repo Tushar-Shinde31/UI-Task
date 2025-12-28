@@ -49,7 +49,7 @@ const About = () => {
         <div className="absolute inset-0 bg-glow opacity-40" />
         <div className="container mx-auto px-4 lg:px-8 text-center relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            About <span className="text-gradient">NFTIFY</span>
+            About <span className="text-gradient">NFTme</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             We're on a mission to empower artists and collectors by building the most innovative and accessible NFT marketplace in the world.
@@ -64,7 +64,7 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">Our Story</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Founded in 2021, NFTIFY emerged from a simple yet powerful vision: to create a platform where digital artists could showcase their work and connect with collectors from around the globe.
+                Founded in 2021, NFTme emerged from a simple yet powerful vision: to create a platform where digital artists could showcase their work and connect with collectors from around the globe.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 What started as a small project has grown into one of the most vibrant NFT marketplaces, hosting thousands of artists and facilitating millions in transactions. We believe that blockchain technology has the power to revolutionize how we create, own, and appreciate art.
@@ -103,7 +103,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Our Values</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              These core principles guide everything we do at NFTIFY.
+              These core principles guide everything we do at NFTme.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -126,7 +126,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Meet Our Team</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              The passionate people behind NFTIFY who work tirelessly to build the best NFT experience.
+              The passionate people behind NFTme who work tirelessly to build the best NFT experience.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -155,7 +155,7 @@ const About = () => {
                 Ready to Join Our Journey?
               </h2>
               <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-                Become part of the NFTIFY community and start your NFT adventure today.
+                Become part of the NFTme community and start your NFT adventure today.
               </p>
               <Button variant="gradient" size="lg">
                 Get Started <ArrowRight size={18} />

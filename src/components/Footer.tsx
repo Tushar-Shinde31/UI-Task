@@ -40,7 +40,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-purple-light flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-xl">N</span>
               </div>
-              <span className="text-xl font-bold text-foreground">NFTIFY</span>
+              <span className="text-xl font-bold text-foreground">NFTme</span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6 max-w-sm">
               Discover, collect, and sell extraordinary NFTs on the world's first and largest NFT marketplace.
@@ -112,7 +112,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 NFTIFY. All rights reserved.
+            © 2024 NFTme. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link to="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">

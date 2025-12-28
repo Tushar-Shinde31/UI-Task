@@ -25,10 +25,9 @@ const Navbar = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-purple-light flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">N</span>
             </div>
-            <span className="text-xl font-bold text-foreground">NFTIFY</span>
+            <span className="text-xl font-bold text-foreground">NFTme</span>
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
@@ -45,7 +44,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Desktop CTA */}
+          
           <div className="hidden md:flex items-center gap-4">
             <Button variant="ghost" size="sm">
               Sign In
@@ -55,7 +54,6 @@ const Navbar = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden text-foreground p-2"
             onClick={() => setIsOpen(!isOpen)}
@@ -64,7 +62,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+      
         {isOpen && (
           <div className="md:hidden pb-6 animate-fade-in">
             <div className="flex flex-col gap-4">

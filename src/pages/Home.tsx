@@ -28,24 +28,23 @@ const Home = () => {
   ];
 
   const nfts = [
-    { image: nft1, title: "Geometric Dreams", creator: "alexart", creatorAvatar: avatar1, price: "1.25", likes: 342 },
-    { image: nft2, title: "Fluid Motion", creator: "sarahnft", creatorAvatar: avatar2, price: "0.89", likes: 281 },
-    { image: nft3, title: "Cyber Guardian", creator: "mikecreates", creatorAvatar: avatar3, price: "2.15", likes: 456 },
-    { image: nft4, title: "Cosmic Journey", creator: "emmadigital", creatorAvatar: avatar4, price: "1.45", likes: 198 },
+    { image: nft1, title: "Sebastian", creator: "alexart", creatorAvatar: avatar1, price: "1.25", likes: 342 },
+    { image: nft2, title: "Ferhat Deniz", creator: "sarahnft", creatorAvatar: avatar2, price: "0.89", likes: 281 },
+    { image: nft3, title: "Javier Miranda", creator: "mikecreates", creatorAvatar: avatar3, price: "2.15", likes: 456 },
+    { image: nft4, title: "Polina Kondrashova", creator: "emmadigital", creatorAvatar: avatar4, price: "1.45", likes: 198 },
   ];
 
   const artists = [
-    { avatar: avatar1, name: "Alex Chen", sales: "245.8", rank: 1 },
-    { avatar: avatar2, name: "Sarah Mills", sales: "198.2", rank: 2 },
-    { avatar: avatar3, name: "Mike Johnson", sales: "156.9", rank: 3 },
-    { avatar: avatar4, name: "Emma Davis", sales: "134.5", rank: 4 },
+    { avatar: avatar1, name: "Ferhat Deniz", sales: "245.8", rank: 1 },
+    { avatar: avatar2, name: "Sebastian", sales: "198.2", rank: 2 },
+    { avatar: avatar3, name: "Javier Miranda", sales: "156.9", rank: 3 },
+    { avatar: avatar4, name: "Erick Butler", sales: "134.5", rank: 4 },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      {/* Hero Section */}
       <SectionWrapper className="pt-32 md:pt-40">
         <div className="absolute inset-0 bg-glow opacity-50" />
         <div className="container mx-auto px-4 lg:px-8">
@@ -97,7 +96,7 @@ const Home = () => {
         </div>
       </SectionWrapper>
 
-      {/* Featured Auction Section */}
+     
       <SectionWrapper>
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex items-center gap-3 mb-8">
@@ -147,7 +146,7 @@ const Home = () => {
         </div>
       </SectionWrapper>
 
-      {/* Trending NFTs Section */}
+      
       <SectionWrapper>
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex items-center justify-between mb-8">
