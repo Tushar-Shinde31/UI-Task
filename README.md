@@ -83,17 +83,21 @@ npm run dev
 
 The application will be available at http://localhost:8080.
 
-
+---
 
 📱 Responsive Screenshots
+Desktop
+<img width="1366" height="768" alt="Screenshot (448)" src="https://github.com/user-attachments/assets/675a34d0-3d7f-42e7-8b29-6fcbf11251d7" />
 
-### The submission includes screenshots for:
-Desktop view
-Tablet view
-Mobile view
+Tab
+<img width="921" height="626" alt="Screenshot (449)" src="https://github.com/user-attachments/assets/297c2816-2525-4178-8da0-5fce90d14f74" />
 
+Mobile
+![WhatsApp Image 2025-12-28 at 2 11 09 PM](https://github.com/user-attachments/assets/d68db1db-8b55-441a-8357-8550928de991)
 
-👤 Author
+---
+
+### Author
 
 Tushar Shinde
 Frontend / Full Stack Developer
